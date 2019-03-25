@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Foreground Notifications</string>
+    <string name="loading">Loading...</string>
+    <string name="network">No Network Available</string>
+    <string name="items">items</string>
+    <string name="foreground_noti_message">Welcome to foreground services notification</string>
+
+
+</resources>

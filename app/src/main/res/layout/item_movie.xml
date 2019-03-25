@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_8" >
+
+    <!-- Thumbnail Image -->
+    <ImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="@dimen/width_80"
+        android:layout_height="@dimen/width_80"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/margin_8"
+        android:layout_marginEnd="@dimen/margin_8"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@null" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivThumbnail"
+        android:layout_toRightOf="@+id/ivThumbnail"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/ivThumbnail" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_toRightOf="@+id/ivThumbnail"
+        android:layout_toEndOf="@+id/ivThumbnail" />
+
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/tvGenre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescription"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_toRightOf="@+id/ivThumbnail"
+        android:layout_toEndOf="@+id/ivThumbnail" />
+
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/tvReleaseYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>
